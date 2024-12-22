@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- sidebar start -->
+        <div class="sidebar">
+            <div class="sidebar-top">
+                <div class="spotify-icon">
+                    <i class="fa-brands fa-spotify"></i>
+                </div>
+                <div class="home-icon">
+                    <i class="fa-solid fa-house"></i>
+
+                </div>
+            </div>
+            <div class="sidebar-card">
+                <div class="library-card">
+                    <div class="sidebar-lib">
+                        <div class="library">
+                            <img src="./assets/library_icon.png">
+                            <span>Your Library</span>
+                        </div>
+                        <div class="library-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="cards">
+                        <div class="para">
+                            <p class="p-1">Create your first playlist</p>
+                            <p class="p-2">It's easy, we will help you</p>
+                        </div>
+
+                        <button class="badge">Create Playlist </button>
+                    </div>
+
+                    <div class="cards">
+                        <div class="para">
+                            <p class="p-1">Lets find some podcast to follow</p>
+                            <p class="p-2">We will keep you updated on new episodes</p>
+                        </div>
+
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+
+                </div>
+
+                <div class="sidebar-footer">
+                    <div class="sidebar-footer-content">
+                        <span class="content">Legal</span>
+                        <span class="content">Safery & Privacy Center</span>
+                        <span class="content">Privary Policy</span>
+                        <span class="content">Cookies</span>
+                        <span class="content">About Ads</span>
+                        <span class="content">Accessibility</span>
+                        <span class="content" id="cookies">Cookies</span>
+
+                    </div>
+                    <button class="sidebar-footer-btn">
+                        <i class="fa-solid fa-globe"></i>
+                        English</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- sidebar end -->
+
+        <!-- navbar start -->
+        <div class="spotify-nav">
+            <div class="search-bar">
+                <div class="search-bar-left">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    What do you want to play?
+                </div>
+                <div class="search-bar-right">
+                    | <i class="fa-solid fa-barcode"></i>
+                </div>
+            </div>
+            <div class="nav-btns">
+                <button class="signup">Sign up</button>
+                <button class="login">Log in</button>
+            </div>
+        </div>
+
+        <!-- navbar end -->
+
+        <!-- homepage start -->
+
+        <div class="home-page">
+
+            <div class="lists">
+                <div class="heading">
+                    <div class="heading-title">Popular artists</div>
+                    <div class="heading-option">Show all</div>
+                </div>
+                <div class="list-content">
+
+                    <div class="card">
+                        <img class="card-img" style="border-radius: 50%;" src="./assets/pritam.jpg">
+                        <p class="cardp1">Pritam</p>
+                        <p class="cardp2">Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" style="border-radius: 50%;" src="./assets/sachinjigar.webp">
+                        <p class="cardp1">Sachin-Jigar</p>
+                        <p class="cardp2">Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" style="border-radius: 50%;" src="./assets/arjitsingh.jpg">
+                        <p class="cardp1">Arjit Singh</p>
+                        <p class="cardp2">Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" style="border-radius: 50%;" src="./assets/arrahman.jpg">
+                        <p class="cardp1">A R Rahman</p>
+                        <p class="cardp2">Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" style="border-radius: 50%;" src="./assets/vishal-shekhar.jpg">
+                        <p class="cardp1">Vishal Shekhar</p>
+                        <p class="cardp2">Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" style="border-radius: 50%;" src="./assets/atifaslam.jpg">
+                        <p class="cardp1">Atif Aslam</p>
+                        <p class="cardp2">Artist</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="lists">
+                <div class="heading">
+                    <div class="heading-title">Popular albums and singers</div>
+                    <div class="heading-option">Show all</div>
+                </div>
+                <div class="list-content">
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/glory.jpg">
+                        <p class="cardp1">GLORY</p>
+                        <p class="cardp2">Yo Yo Honey Singh</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/aashique2.jpg">
+                        <p class="cardp1">Aashique 2</p>
+                        <p class="cardp2">Mithoon, Ankit Tiwari</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/patandar.jpg">
+                        <p class="cardp1">Patandar</p>
+                        <p class="cardp2">Arjan Dhillion, Mxrci</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/jotummereho.jpg">
+                        <p class="cardp1">Jo Tum Mere Ho</p>
+                        <p class="cardp2">Anuv Jain</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/makingmemories.jpg">
+                        <p class="cardp1">Making Memories</p>
+                        <p class="cardp2">Karan Aujla, Ikky</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/yejawanihaideewani.jpg">
+                        <p class="cardp1">Ye Jawani Hai...</p>
+                        <p class="cardp2">Pritam</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="lists">
+                <div class="heading">
+                    <div class="heading-title">Featured Charts</div>
+                    <div class="heading-option">Show all</div>
+                </div>
+                <div class="list-content">
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/card1img.jpeg">
+                        <p class="cardp1">Top 50</p>
+                        <p class="cardp2">You weekly updates..</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/card5img.jpeg">
+                        <p class="cardp1">Top Songs GLobal</p>
+                        <p class="cardp2">You weekly updates..</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/card6img.jpeg">
+                        <p class="cardp1">Top Indian Songs</p>
+                        <p class="cardp2">You weekly updates..</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- homepage end -->
+
+        <!-- footer start -->
+
+        <div class="footer">
+            <div class="footer-para">
+                <p class="footer-para1">Preview of Spotify</p>
+                <p class="footer-para2">Sign up to get unlimited songs and podcasts with occasional ads. No credit
+                    needed.</p>
+            </div>
+            <button class="footer-btn">Sign up free</button>
+
+        </div>
+
+        <!-- footer end  -->
+
+    </div>
+</body>
+
+</html>
